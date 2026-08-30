@@ -212,14 +212,19 @@ function DocsContent() {
             <strong>Default: 1%</strong>
           </div>
           <div>
+            <span>Bowfee recipient</span>
+            <strong>0xf3455c1173378819c627b7196fe3fc5d95495f03</strong>
+          </div>
+          <div>
             <span>Network gas</span>
             <strong>Paid to the network</strong>
           </div>
         </div>
         <p>
-          These values live in configuration rather than being hard-coded into
-          the interface. Production deployment should publish the effective fee
-          recipient and verified contract values.
+          The fee wallet is disclosed publicly and stored in the network
+          configuration. The smart contract must use the same address before any
+          production launch; users should verify it against the deployed
+          contract and wallet transaction preview.
         </p>
       </Section>
       <Section id="architecture" title="Technical architecture">
