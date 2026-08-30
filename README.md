@@ -36,5 +36,7 @@ Bowpad is independent and is not affiliated with or endorsed by Robinhood. Token
 
 The public Trust Center tracks repository, contract-verification, audit, and mainnet readiness. No audit or mainnet deployment is claimed until evidence is publicly available.
 
+Current platform-fee defaults are 1% on buys and 1% on sells. The disclosed Bowfee recipient is `0xf3455c1173378819c627b7196fe3fc5d95495f03`. These settings do not move real funds until matching smart contracts are deployed and connected.
+
 Website: https://bowpad-launchpad.vannse159.chatgpt.site
 
