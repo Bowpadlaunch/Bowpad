@@ -892,6 +892,7 @@ function Create({
               label="Sell fee"
               value={formatFee(bowpadNetwork.sellFeeBps)}
             />
+            <Summary label="Fee wallet" value="0xf345…5f03" />
             <Summary label="Network cost" value="Gas only" />
             <div className="mt-5 rounded-2xl bg-primary/10 p-4 text-xs">
               <b className="flex gap-2">
@@ -927,6 +928,7 @@ function Create({
             <Summary label="Action" value="Create token + curve" />
             <Summary label="Platform fee" value="Free" />
             <Summary label="Trading fee" value="1% buy / sell" />
+            <Summary label="Fee wallet" value="0xf345…5f03" />
             <Summary label="Wallet" value="0x71…c92F" />
           </div>
           <Button className="h-12" onClick={confirm} disabled={pending}>
@@ -1282,3 +1284,4 @@ export function BowpadApp({ view }: { view: View }) {
     </main>
   );
 }
+
