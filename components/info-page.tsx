@@ -607,8 +607,8 @@ function TrustContent() {
         </div>
         <p>
           The repository contains the Bowpad interface and testnet-ready
-          architecture. Mainnet contract addresses, verified source, audits,
-          and tagged releases will be added as they become available.
+          architecture. Mainnet contract addresses, verified source, audits, and
+          tagged releases will be added as they become available.
         </p>
       </Section>
       <Section id="contracts" title="Contract verification plan">
@@ -742,3 +742,4 @@ export function InfoPage({ kind }: { kind: InfoPageKind }) {
     </main>
   );
 }
+
